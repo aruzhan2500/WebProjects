@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma,sans-serif,Arial,Helvetica;
+    font-size: 13px;
+    width: 100vw;
+    height: 100vh;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.background {
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+body .background_blue {
+    background-color: #5682a3;
+    height: 38%;
+}
+body .background_white {
+    background-color: #e7ebf0;
+    height: 62%;
+}
+.main {
+    height: 80%;
+    width: 404px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login_header {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5682a3;
+    color: #ffffff;
+    line-height: 20px;
+    padding: 23px 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logo_img {
+    width: 30px;
+    margin-right: 20px;
+}
+.next_btn {
+    font-weight: 700;
+    cursor: pointer;
+}
+.login_main {
+    background-color: #ffffff;
+    padding: 44px 65px;
+    border-radius: 2px;
+}
+.signing_title {
+    font-weight: 700;
+    color: #222;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.signing_text {
+    margin-bottom: 30px;
+    color: #A69999;
+}
+.country_title, .code_title, .code_end {
+    color: #A69999;
+    font-size: 12px;
+}
+.country{
+    cursor: pointer;
+}
+.bordered {
+    border-bottom: 1px solid #e6e6e6;
+    margin: 3px 0;
+    padding: 3px 0;
+}
+.code {
+    margin-top: 22px;
+}
+
+.code_title {
+    cursor: default;
+}
+
+.code_choose {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.code_begin {
+    width: 50px;
+}
+
+.code_end {
+    width: 199px;
+}
+.last {
+    margin-top: 50px;
+    position: absolute;
+    color: #84a2bc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.last_link {
+    font-weight: 700;
+}
+
+.last_link a:hover {
+    text-decoration: underline #84a2bc;
+}

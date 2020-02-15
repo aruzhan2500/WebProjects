@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.first_header {
+    background-image: linear-gradient(#4D69A1, #3B5998);
+    width: 100%;
+    height: 85px;
+}
+.align {
+    width: 980px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 170px;
+    height: 55px;
+    margin-top: 20px;
+}
+.login {
+    float: right;
+    font-size: 12px;
+    color: #FDFDFE;
+    margin-top: 13px;
+}
+.login p {
+    margin-left: 12px;
+    margin-bottom: 4px;
+}
+.input_text {
+    width: 150px;
+    height: 20px;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    border-color: #1D2A5B;
+    border-width: 1px;
+    background-color: #E8F0FE;
+}
+.button {
+    background-color: #4877c9;
+    color: white;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-width: 1px;
+    border-color: #29487D;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+.button:hover {
+    background-color: #3B5998;
+}
+.login a {
+    color: #94ADD3;
+    font-size: 12px;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(#FEFEFE, #D4D9E8);
+}
+.main_content {
+    width: 980px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    float: left;
+    margin-top: 40px;
+    width: 500px;
+    color: #0E385F;
+    font-size: 17px;
+    line-height: 28px;
+}
+.left img {
+    width: 535px;
+}
+.right {
+    float: right;
+    margin-top: 22px;
+    width: 400px;
+}
+.right h1 {
+    font-size: 36px;
+    color: #333333;
+}
+.right p {
+    font-size: 19px;
+    margin-top: 8px;
+    color: black;
+    margin-bottom: 22px;
+}
+.regist_input {
+    width: 180px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid #B6C1D5;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.regist_input2 {
+    width: 380px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid #B6C1D5;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #b7b5b5;
+    margin-top: 8px;
+}
+
+.information {
+    width: 360px;
+}
+.information p {
+    padding-top: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: unset;
+}
+.date {
+    width: 60px;
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid #B6C1D5;
+    border-radius: 5px;
+}
+.link {
+    color: #3B5998;
+    font-size: 12px;
+    text-decoration: none;
+}
+.gender {
+    margin-top: 10px;
+}
+#g2 {
+    margin-left: 10px;
+}
+.string {
+    margin-top: 15px;
+    font-size: 12px;
+    width: 340px;
+    color: #777777;
+}
+.string a {
+    text-decoration: none;
+    color: #3B5998;
+}
+.button2 {
+    margin-top: 20px;
+}
+.button2 button{
+    width: 190px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #529639;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.button2 button:hover {
+    background-color: #61964e;
+}
+.last {
+    margin-top: 30px;
+    width: 400px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+}
+.last a {
+    text-decoration: none;
+    color: #3B5998;
+}
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    padding-top: 20px;
+}
+.lang {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lang ul {
+    list-style-type: none;
+}
+.lang li {
+    float: left;
+    font-size: 12px;
+    color: #90949C;
+    margin-right: 10px;
+}
+.lang a {
+    text-decoration: none;
+    color: #3B5998;
+}
+.lang button{
+    border-radius: 2px;
+    border: 1px solid darkgrey;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+}
+.links2 {
+    padding-top: 20px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.links2 ul {
+    border-top: 1px solid lightgrey;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.links2 li {
+    float: left;
+    font-size: 12px;
+    color: #90949C;
+    margin-right: 22px;
+    line-height: 18px;
+}
+.links2 a {
+    text-decoration: none;
+    color: #3B5998;
+}
+.copyright {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    font-size: 11px;
+    color: #90949C;
+    padding-bottom: 20px;
+}
